@@ -143,6 +143,7 @@ export default function App() {
   const handleGetNewCards = () => {
     setCardArray(getCliches(EurovisionClicheArray, 6));
     setButtonStates(Array(6).fill(false));
+    setIsBingoButtonActive(false);
      }
 
 
